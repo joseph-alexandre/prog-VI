@@ -2,7 +2,6 @@ package questao1.classes.duck;
 
 import questao1.classes.fly.FlyNoWayStrategy;
 import questao1.classes.quack.MuteQuackStrategy;
-import questao1.classes.quack.SqueakStrategy;
 
 public class DecoyDuck extends DuckContext {
 

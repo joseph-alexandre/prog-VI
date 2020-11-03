@@ -12,6 +12,6 @@ public class MallardDuck extends DuckContext {
 
     @Override
     public void display() {
-        System.out.println("Parece um Mallard duck!");
+
     }
 }
