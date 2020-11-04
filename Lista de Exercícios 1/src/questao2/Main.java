@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Exemplo de casa: \n");
-        Imovel imovel = new Casa(30f, 5, 'A');
+        ImovelContext imovel = new Casa(30f, 5, 'A');
         System.out.println(imovel.definirValor());
 
         System.out.println("\n-------------------------\n");

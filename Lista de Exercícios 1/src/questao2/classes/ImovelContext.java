@@ -2,20 +2,20 @@ package questao2.classes;
 
 import questao2.interfaces.DefinirValorComportamento;
 
-public abstract class Imovel {
+public abstract class ImovelContext {
     private Float espaco;
     private Integer comodos = 0;
     private Character localizacao;
     private Boolean isTerreno = false;
     DefinirValorComportamento definirValorEdificacaoComportamento;
 
-    public Imovel(Float espaco, Integer comodos, Character localizacao) {
+    public ImovelContext(Float espaco, Integer comodos, Character localizacao) {
         this.espaco = espaco;
         this.comodos = comodos;
         this.localizacao = localizacao;
     }
 
-    public Imovel(Float espaco, Character localizacao, Boolean isTerreno) {
+    public ImovelContext(Float espaco, Character localizacao, Boolean isTerreno) {
         this.espaco = espaco;
         this.localizacao = localizacao;
         this.isTerreno = isTerreno;
